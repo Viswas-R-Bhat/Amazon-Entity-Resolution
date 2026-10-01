@@ -1,0 +1,60 @@
+{
+  "threshold": 0.93,
+  "cap": 60,
+  "features": [
+    "name_ratio",
+    "name_sort",
+    "name_set",
+    "name_partial",
+    "name_jaccard",
+    "core_equal",
+    "name_equal",
+    "name_length_ratio",
+    "phonetic_ratio",
+    "unicode_name_ratio",
+    "address_ratio",
+    "address_sort",
+    "address_set",
+    "address_jaccard",
+    "address_equal",
+    "address_missing",
+    "address_length_ratio",
+    "number_overlap",
+    "number_conflict",
+    "number_missing",
+    "name_number_conflict",
+    "unicode_address_ratio",
+    "source3",
+    "log_name_frequency",
+    "retrieval_score",
+    "exact_block"
+  ],
+  "retrieval_version": 1,
+  "seed": 42,
+  "model_sha256": "31b56b8e594eba593305c8cb93ce601cb33f72426dd31247de08e49969502496",
+  "inputs": [
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_source1.tsv",
+      "size": 96171,
+      "mtime_ns": 1790346886711473900
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_source2.tsv",
+      "size": 1624142,
+      "mtime_ns": 1790346899324415300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_source3.tsv",
+      "size": 1605478,
+      "mtime_ns": 1790346913822534100
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_ground_truth.tsv",
+      "size": 58177,
+      "mtime_ns": 1790346886718343500
+    }
+  ],
+  "license": "MIT",
+  "model_type": "LightGBM gradient boosted decision trees",
+  "trees": 300
+}

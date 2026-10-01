@@ -1,0 +1,24 @@
+{
+  "entities": 1000,
+  "candidate_pairs": 57141,
+  "matches": 3286,
+  "elapsed_seconds_this_invocation": 10.71,
+  "inputs": [
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source1.tsv",
+      "size": 96171,
+      "mtime_ns": 1790346886716515300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source2.tsv",
+      "size": 1624142,
+      "mtime_ns": 1790346899364123300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source3.tsv",
+      "size": 1605478,
+      "mtime_ns": 1790346913864110500
+    }
+  ],
+  "model_sha256": "31b56b8e594eba593305c8cb93ce601cb33f72426dd31247de08e49969502496"
+}

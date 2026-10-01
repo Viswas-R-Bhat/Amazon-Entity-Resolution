@@ -1,0 +1,632 @@
+{
+  "sample_entities": 1000,
+  "candidate_pairs": 57141,
+  "threshold_selection": {
+    "macro_f05": 0.9778455130566653,
+    "threshold": 0.93,
+    "trials": 102
+  },
+  "seed": 42,
+  "sample_size_requested": 1000,
+  "cap": 60,
+  "supervised_fit_pairs": 33575,
+  "heldout_targets_excluded_from_fit": 1415,
+  "retrieval_seconds": 11.16,
+  "total_training_seconds": 11.68,
+  "evaluation_note": "Fixed model fit on fit entities only; threshold chosen on tune; eval untouched. Metrics reflect the supplied training target catalog, not hidden test performance.",
+  "folds": {
+    "tune": {
+      "entities": 208,
+      "macro_f05": 0.9778455130566653,
+      "candidate_recall_micro": 0.9651162790697675,
+      "candidate_recall_macro_nonempty": 0.9632619047619048,
+      "candidate_oracle_macro_f05": 0.9856847878281049,
+      "false_positive_links": 2,
+      "false_negative_links": 45,
+      "by_country": {
+        "India": {
+          "entities": 86,
+          "macro_f05": 0.955622434351433,
+          "candidate_recall_micro": 0.9465875370919882,
+          "candidate_recall_macro_nonempty": 0.9369187675070028,
+          "candidate_oracle_macro_f05": 0.9711431663213769,
+          "false_positive_links": 2,
+          "false_negative_links": 31
+        },
+        "US": {
+          "entities": 122,
+          "macro_f05": 0.9935109619800261,
+          "candidate_recall_micro": 0.9794050343249427,
+          "candidate_recall_macro_nonempty": 0.9827329192546583,
+          "candidate_oracle_macro_f05": 0.9959354390541594,
+          "false_positive_links": 0,
+          "false_negative_links": 14
+        }
+      },
+      "error_examples": [
+        {
+          "source1_entity_id": "S1-113814463",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-892345290"
+          ],
+          "missed_by_retrieval": [
+            "S2-892345290"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-13717348",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-940822584"
+          ],
+          "missed_by_retrieval": [
+            "S3-940822584"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-137446244",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-607985416"
+          ],
+          "missed_by_retrieval": [
+            "S3-607985416"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-178173696",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-62861176"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-194775409",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-889140499"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-273511894",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-497402465",
+            "S2-850437320",
+            "S3-482142700"
+          ],
+          "missed_by_retrieval": [
+            "S2-497402465",
+            "S2-850437320",
+            "S3-482142700"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-276296929",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-618793748"
+          ],
+          "missed_by_retrieval": [
+            "S2-618793748"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-319654970",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-976032102"
+          ],
+          "missed_by_retrieval": [
+            "S3-976032102"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-326695955",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-959215052"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-420630284",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-38082435",
+            "S3-320931041",
+            "S3-752331345"
+          ],
+          "missed_by_retrieval": [
+            "S2-38082435",
+            "S3-320931041",
+            "S3-752331345"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-45049521",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-111419547"
+          ],
+          "missed_by_retrieval": [
+            "S2-111419547"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-453989271",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-912731002"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-476467744",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-224134800"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-481849789",
+          "country": "India",
+          "false_positives": [
+            "S2-917939733"
+          ],
+          "false_negatives": [],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-49035397",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-745336602"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-495260718",
+          "country": "India",
+          "false_positives": [
+            "S3-212642174"
+          ],
+          "false_negatives": [],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-539965862",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-577079245"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-552893484",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-771912478"
+          ],
+          "missed_by_retrieval": [
+            "S3-771912478"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-589182098",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-36922084"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-590272346",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-757375106"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-608015378",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-348972114"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-665030588",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-752943959",
+            "S3-96785038"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-746330624",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-277730664"
+          ],
+          "missed_by_retrieval": [
+            "S3-277730664"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-762280898",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-923222673",
+            "S2-991473813"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-765408618",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-58533201"
+          ],
+          "missed_by_retrieval": [
+            "S2-58533201"
+          ]
+        }
+      ]
+    },
+    "eval": {
+      "entities": 181,
+      "macro_f05": 0.9730844645783265,
+      "candidate_recall_micro": 0.9516380655226209,
+      "candidate_recall_macro_nonempty": 0.952704987320372,
+      "candidate_oracle_macro_f05": 0.987305932183772,
+      "false_positive_links": 2,
+      "false_negative_links": 57,
+      "by_country": {
+        "India": {
+          "entities": 66,
+          "macro_f05": 0.9652413236540803,
+          "candidate_recall_micro": 0.9253112033195021,
+          "candidate_recall_macro_nonempty": 0.9290842490842491,
+          "candidate_oracle_macro_f05": 0.9796419989839,
+          "false_positive_links": 1,
+          "false_negative_links": 26
+        },
+        "US": {
+          "entities": 115,
+          "macro_f05": 0.9775857454565894,
+          "candidate_recall_micro": 0.9675,
+          "candidate_recall_macro_nonempty": 0.9674679487179488,
+          "candidate_oracle_macro_f05": 0.9917043634115245,
+          "false_positive_links": 1,
+          "false_negative_links": 31
+        }
+      },
+      "error_examples": [
+        {
+          "source1_entity_id": "S1-101506031",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-136976778"
+          ],
+          "missed_by_retrieval": [
+            "S2-136976778"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-111468151",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-169950653"
+          ],
+          "missed_by_retrieval": [
+            "S3-169950653"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-11628555",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-977389798"
+          ],
+          "missed_by_retrieval": [
+            "S2-977389798"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-121105331",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-618045532"
+          ],
+          "missed_by_retrieval": [
+            "S3-618045532"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-127513372",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-62208559"
+          ],
+          "missed_by_retrieval": [
+            "S3-62208559"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-139506933",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-174778027"
+          ],
+          "missed_by_retrieval": [
+            "S2-174778027"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-201917421",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-434016053"
+          ],
+          "missed_by_retrieval": [
+            "S3-434016053"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-24950215",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-694321167"
+          ],
+          "missed_by_retrieval": [
+            "S3-694321167"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-273622555",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-783182273"
+          ],
+          "missed_by_retrieval": [
+            "S3-783182273"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-306820819",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-743847888"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-363875610",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-809696738"
+          ],
+          "missed_by_retrieval": [
+            "S2-809696738"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-371427688",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-42558206"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-388820071",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-818540787"
+          ],
+          "missed_by_retrieval": [
+            "S3-818540787"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-466739910",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-869790073"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-514902998",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-586068943",
+            "S3-871849973"
+          ],
+          "missed_by_retrieval": [
+            "S3-586068943",
+            "S3-871849973"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-521760475",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-253205058",
+            "S3-234451668",
+            "S3-458721186",
+            "S3-499857650"
+          ],
+          "missed_by_retrieval": [
+            "S3-234451668",
+            "S3-499857650"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-529593062",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-637734837",
+            "S3-369810577"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-541842043",
+          "country": "India",
+          "false_positives": [
+            "S3-507637360"
+          ],
+          "false_negatives": [],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-548278199",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-114199413",
+            "S2-424259935"
+          ],
+          "missed_by_retrieval": [
+            "S2-114199413",
+            "S2-424259935"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-594944061",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S2-149659925"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-634813642",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-111656089"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-648026554",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-359282209"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-648223539",
+          "country": "US",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-918409396"
+          ],
+          "missed_by_retrieval": [
+            "S3-918409396"
+          ]
+        },
+        {
+          "source1_entity_id": "S1-65009584",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-976644078"
+          ],
+          "missed_by_retrieval": []
+        },
+        {
+          "source1_entity_id": "S1-6822547",
+          "country": "India",
+          "false_positives": [],
+          "false_negatives": [
+            "S3-701849154"
+          ],
+          "missed_by_retrieval": [
+            "S3-701849154"
+          ]
+        }
+      ]
+    }
+  },
+  "feature_importance_gain": {
+    "name_ratio": 661.8982509062625,
+    "name_sort": 1670.5343916313723,
+    "name_set": 379.51304444274865,
+    "name_partial": 721.1290222466923,
+    "name_jaccard": 2585.4040402919054,
+    "core_equal": 0.831997599452734,
+    "name_equal": 0.0,
+    "name_length_ratio": 204.02970041008666,
+    "phonetic_ratio": 368.5790662718937,
+    "unicode_name_ratio": 281.4018517276563,
+    "address_ratio": 2244.479028471338,
+    "address_sort": 1150.751311217813,
+    "address_set": 93307.32189277699,
+    "address_jaccard": 44525.751188176706,
+    "address_equal": 0.0,
+    "address_missing": 1.6903569996356964,
+    "address_length_ratio": 1233.7605594814522,
+    "number_overlap": 1462.5188920795918,
+    "number_conflict": 1450.5647281818092,
+    "number_missing": 0.9278242886066437,
+    "name_number_conflict": 0.0,
+    "unicode_address_ratio": 162.2685237263213,
+    "source3": 409.83532900922,
+    "log_name_frequency": 144.29103169124573,
+    "retrieval_score": 2073.6507207914256,
+    "exact_block": 0.1822109967470169
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "train_name_ambiguity": [
+    {
+      "country": "India",
+      "entities": 883188,
+      "unique_name_keys": 559665,
+      "entities_sharing_name_key": 392116,
+      "largest_group": 99,
+      "other_reference_pairs_sharing_name": 6707044
+    },
+    {
+      "country": "US",
+      "entities": 1323633,
+      "unique_name_keys": 961759,
+      "entities_sharing_name_key": 474025,
+      "largest_group": 253,
+      "other_reference_pairs_sharing_name": 11031028
+    }
+  ],
+  "train_common_names": [
+    {
+      "country": "US",
+      "name_key": "primary care group",
+      "n": 253
+    },
+    {
+      "country": "US",
+      "name_key": "ear nose throat group",
+      "n": 251
+    },
+    {
+      "country": "US",
+      "name_key": "pediatric group",
+      "n": 222
+    },
+    {
+      "country": "US",
+      "name_key": "womens health group",
+      "n": 220
+    },
+    {
+      "country": "US",
+      "name_key": "physical therapy group",
+      "n": 218
+    }
+  ],
+  "test_name_ambiguity": [
+    {
+      "country": "France",
+      "entities": 259452,
+      "unique_name_keys": 192254,
+      "entities_sharing_name_key": 89267,
+      "largest_group": 205,
+      "other_reference_pairs_sharing_name": 1064638
+    },
+    {
+      "country": "India",
+      "entities": 809986,
+      "unique_name_keys": 518593,
+      "entities_sharing_name_key": 354418,
+      "largest_group": 98,
+      "other_reference_pairs_sharing_name": 5660796
+    },
+    {
+      "country": "US",
+      "entities": 663106,
+      "unique_name_keys": 517095,
+      "entities_sharing_name_key": 193133,
+      "largest_group": 123,
+      "other_reference_pairs_sharing_name": 2787092
+    }
+  ],
+  "test_common_names": [
+    {
+      "country": "France",
+      "name_key": "bordeaux club sarl",
+      "n": 205
+    },
+    {
+      "country": "France",
+      "name_key": "nantes club sarl",
+      "n": 157
+    },
+    {
+      "country": "France",
+      "name_key": "lille club sarl",
+      "n": 147
+    },
+    {
+      "country": "US",
+      "name_key": "urgent care group",
+      "n": 123
+    },
+    {
+      "country": "France",
+      "name_key": "lille club sas",
+      "n": 122
+    }
+  ],
+  "positive_pair_missing_addresses": [
+    {
+      "country": "India",
+      "source": "S2",
+      "pairs": 1480545,
+      "missing_address": 56635
+    },
+    {
+      "country": "India",
+      "source": "S3",
+      "pairs": 1579298,
+      "missing_address": 63452
+    },
+    {
+      "country": "US",
+      "source": "S2",
+      "pairs": 2213074,
+      "missing_address": 108549
+    },
+    {
+      "country": "US",
+      "source": "S3",
+      "pairs": 2365448,
+      "missing_address": 108382
+    }
+  ],
+  "address_numeric_coverage": [
+    {
+      "country": "US",
+      "rows": 1323633,
+      "address_has_digit": 1323632,
+      "address_has_5_or_6_digit_token": 144873,
+      "table": "train_source1"
+    },
+    {
+      "country": "India",
+      "rows": 883188,
+      "address_has_digit": 806152,
+      "address_has_5_or_6_digit_token": 2384,
+      "table": "train_source1"
+    },
+    {
+      "country": "France",
+      "rows": 259452,
+      "address_has_digit": 258363,
+      "address_has_5_or_6_digit_token": 1039,
+      "table": "test_source1"
+    },
+    {
+      "country": "US",
+      "rows": 663106,
+      "address_has_digit": 663105,
+      "address_has_5_or_6_digit_token": 72527,
+      "table": "test_source1"
+    },
+    {
+      "country": "India",
+      "rows": 809986,
+      "address_has_digit": 739238,
+      "address_has_5_or_6_digit_token": 2068,
+      "table": "test_source1"
+    }
+  ],
+  "script_name_counts": [
+    {
+      "devanagari": 269424,
+      "bengali": 30723,
+      "gurmukhi": 6688,
+      "gujarati": 30929,
+      "odia": 7493,
+      "tamil": 33781,
+      "telugu": 39323,
+      "kannada": 37211,
+      "malayalam": 18773,
+      "table": "train_source2"
+    },
+    {
+      "devanagari": 158003,
+      "bengali": 18144,
+      "gurmukhi": 4106,
+      "gujarati": 18020,
+      "odia": 4317,
+      "tamil": 19790,
+      "telugu": 23033,
+      "kannada": 21995,
+      "malayalam": 11116,
+      "table": "train_source3"
+    },
+    {
+      "devanagari": 309103,
+      "bengali": 35546,
+      "gurmukhi": 7903,
+      "gujarati": 35321,
+      "odia": 8670,
+      "tamil": 38953,
+      "telugu": 45171,
+      "kannada": 43906,
+      "malayalam": 22033,
+      "table": "test_source2"
+    },
+    {
+      "devanagari": 181068,
+      "bengali": 20872,
+      "gurmukhi": 4634,
+      "gujarati": 20570,
+      "odia": 5062,
+      "tamil": 22808,
+      "telugu": 26698,
+      "kannada": 25832,
+      "malayalam": 13095,
+      "table": "test_source3"
+    }
+  ]
+}

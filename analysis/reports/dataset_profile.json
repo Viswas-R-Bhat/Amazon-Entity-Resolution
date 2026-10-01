@@ -1,0 +1,731 @@
+{
+  "duckdb_version": "1.5.5",
+  "files": {
+    "train_source1": {
+      "rows": 2206821,
+      "unique_ids": 2206821,
+      "invalid_ids": 0,
+      "missing_country": 0,
+      "size_bytes": 210069713,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "by_country": [
+        {
+          "country": "India",
+          "rows": 883188,
+          "missing_name": 0,
+          "missing_address": 0,
+          "missing_both": 0,
+          "non_ascii_name": 0,
+          "non_ascii_address": 554,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 26.4,
+          "mean_address_chars": 77.7
+        },
+        {
+          "country": "US",
+          "rows": 1323633,
+          "missing_name": 0,
+          "missing_address": 0,
+          "missing_both": 0,
+          "non_ascii_name": 0,
+          "non_ascii_address": 0,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 22.5,
+          "mean_address_chars": 35.0
+        }
+      ]
+    },
+    "train_source2": {
+      "rows": 5034616,
+      "unique_ids": 5034616,
+      "invalid_ids": 0,
+      "missing_country": 0,
+      "size_bytes": 489301488,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "by_country": [
+        {
+          "country": "India",
+          "rows": 2017799,
+          "missing_name": 0,
+          "missing_address": 57846,
+          "missing_both": 0,
+          "non_ascii_name": 562437,
+          "non_ascii_address": 478396,
+          "devanagari_name": 269424,
+          "cyrillic_name": 0,
+          "mean_name_chars": 27.4,
+          "mean_address_chars": 70.2
+        },
+        {
+          "country": "US",
+          "rows": 3016817,
+          "missing_name": 0,
+          "missing_address": 111121,
+          "missing_both": 0,
+          "non_ascii_name": 202171,
+          "non_ascii_address": 57,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 23.6,
+          "mean_address_chars": 32.7
+        }
+      ]
+    },
+    "train_source3": {
+      "rows": 5285603,
+      "unique_ids": 5285603,
+      "invalid_ids": 0,
+      "missing_country": 0,
+      "size_bytes": 503705637,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "by_country": [
+        {
+          "country": "India",
+          "rows": 2115547,
+          "missing_name": 0,
+          "missing_address": 64948,
+          "missing_both": 0,
+          "non_ascii_name": 391172,
+          "non_ascii_address": 476536,
+          "devanagari_name": 158003,
+          "cyrillic_name": 0,
+          "mean_name_chars": 27.0,
+          "mean_address_chars": 61.0
+        },
+        {
+          "country": "US",
+          "rows": 3170056,
+          "missing_name": 0,
+          "missing_address": 110968,
+          "missing_both": 0,
+          "non_ascii_name": 215565,
+          "non_ascii_address": 52,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 24.0,
+          "mean_address_chars": 39.8
+        }
+      ]
+    },
+    "test_source1": {
+      "rows": 1732544,
+      "unique_ids": 1732544,
+      "invalid_ids": 0,
+      "missing_country": 0,
+      "size_bytes": 175022086,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "by_country": [
+        {
+          "country": "France",
+          "rows": 259452,
+          "missing_name": 0,
+          "missing_address": 0,
+          "missing_both": 0,
+          "non_ascii_name": 40789,
+          "non_ascii_address": 73335,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 19.4,
+          "mean_address_chars": 50.1
+        },
+        {
+          "country": "India",
+          "rows": 809986,
+          "missing_name": 0,
+          "missing_address": 0,
+          "missing_both": 0,
+          "non_ascii_name": 0,
+          "non_ascii_address": 465,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 26.4,
+          "mean_address_chars": 77.7
+        },
+        {
+          "country": "US",
+          "rows": 663106,
+          "missing_name": 0,
+          "missing_address": 0,
+          "missing_both": 0,
+          "non_ascii_name": 0,
+          "non_ascii_address": 0,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 22.5,
+          "mean_address_chars": 35.0
+        }
+      ]
+    },
+    "test_source2": {
+      "rows": 4887273,
+      "unique_ids": 4887273,
+      "invalid_ids": 0,
+      "missing_country": 0,
+      "size_bytes": 509456422,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "by_country": [
+        {
+          "country": "France",
+          "rows": 703378,
+          "missing_name": 0,
+          "missing_address": 21537,
+          "missing_both": 0,
+          "non_ascii_name": 172617,
+          "non_ascii_address": 169163,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 21.1,
+          "mean_address_chars": 40.8
+        },
+        {
+          "country": "India",
+          "rows": 2312565,
+          "missing_name": 0,
+          "missing_address": 52764,
+          "missing_both": 0,
+          "non_ascii_name": 638614,
+          "non_ascii_address": 551461,
+          "devanagari_name": 309103,
+          "cyrillic_name": 0,
+          "mean_name_chars": 28.3,
+          "mean_address_chars": 70.4
+        },
+        {
+          "country": "US",
+          "rows": 1871330,
+          "missing_name": 0,
+          "missing_address": 55107,
+          "missing_both": 0,
+          "non_ascii_name": 116927,
+          "non_ascii_address": 41,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 24.3,
+          "mean_address_chars": 32.8
+        }
+      ]
+    },
+    "test_source3": {
+      "rows": 5082316,
+      "unique_ids": 5082316,
+      "invalid_ids": 0,
+      "missing_country": 0,
+      "size_bytes": 506002772,
+      "columns": [
+        "entity_id",
+        "business_name",
+        "business_address",
+        "country"
+      ],
+      "by_country": [
+        {
+          "country": "France",
+          "rows": 731615,
+          "missing_name": 0,
+          "missing_address": 21541,
+          "missing_both": 0,
+          "non_ascii_name": 175185,
+          "non_ascii_address": 177914,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 21.1,
+          "mean_address_chars": 41.2
+        },
+        {
+          "country": "India",
+          "rows": 2405000,
+          "missing_name": 0,
+          "missing_address": 59240,
+          "missing_both": 0,
+          "non_ascii_name": 437903,
+          "non_ascii_address": 551274,
+          "devanagari_name": 181068,
+          "cyrillic_name": 0,
+          "mean_name_chars": 27.9,
+          "mean_address_chars": 60.9
+        },
+        {
+          "country": "US",
+          "rows": 1945701,
+          "missing_name": 0,
+          "missing_address": 55317,
+          "missing_both": 0,
+          "non_ascii_name": 124427,
+          "non_ascii_address": 34,
+          "devanagari_name": 0,
+          "cyrillic_name": 0,
+          "mean_name_chars": 24.6,
+          "mean_address_chars": 40.0
+        }
+      ]
+    }
+  },
+  "checks": {
+    "source1_without_ground_truth": 0,
+    "ground_truth_without_source1": 0,
+    "unknown_target_ids": 0,
+    "targets_assigned_to_multiple_source1": 0,
+    "cross_country_positive_pairs": 0,
+    "train_test_id_overlap": {
+      "S1": 0,
+      "S2": 0,
+      "S3": 0
+    },
+    "train_test_exact_source1_content_overlap": 0
+  },
+  "sampling": {
+    "method": "DuckDB hash(source1_id) % 1000 < 10; all labeled pairs for selected entities",
+    "reference_entities": 20676,
+    "normalization": "Unicode NFKD, remove combining marks, casefold, retain Unicode word tokens; exploratory only",
+    "positive_pair_statistics": {
+      "all": {
+        "pairs": 75781,
+        "name_exact_nonempty": 19399,
+        "address_exact_nonempty": 6278,
+        "either_name_or_address_exact_nonempty": 24445,
+        "either_address_missing": 3357,
+        "either_name_missing": 0,
+        "name_token_overlap_zero": 10879
+      },
+      "India": {
+        "pairs": 30061,
+        "name_exact_nonempty": 5540,
+        "address_exact_nonempty": 2240,
+        "either_name_or_address_exact_nonempty": 7486,
+        "either_address_missing": 1238,
+        "either_name_missing": 0,
+        "name_token_overlap_zero": 7229
+      },
+      "S2": {
+        "pairs": 36733,
+        "name_exact_nonempty": 9187,
+        "address_exact_nonempty": 4612,
+        "either_name_or_address_exact_nonempty": 12570,
+        "either_address_missing": 1665,
+        "either_name_missing": 0,
+        "name_token_overlap_zero": 5889
+      },
+      "US": {
+        "pairs": 45720,
+        "name_exact_nonempty": 13859,
+        "address_exact_nonempty": 4038,
+        "either_name_or_address_exact_nonempty": 16959,
+        "either_address_missing": 2119,
+        "either_name_missing": 0,
+        "name_token_overlap_zero": 3650
+      },
+      "S3": {
+        "pairs": 39048,
+        "name_exact_nonempty": 10212,
+        "address_exact_nonempty": 1666,
+        "either_name_or_address_exact_nonempty": 11875,
+        "either_address_missing": 1692,
+        "either_name_missing": 0,
+        "name_token_overlap_zero": 4990
+      }
+    },
+    "examples": {
+      "low_name_similarity": [
+        {
+          "source1_id": "S1-572417724",
+          "target_id": "S2-157862947",
+          "country": "India",
+          "name1": "One Construction",
+          "name2": "वन कंस्ट्रक्शन",
+          "address1": "New Delhi, South Delhi, 2Nd Floor, Chittaranjan Park, A-9, Delhi",
+          "address2": "A-9, 2ND FLOOR, CHITTARANJAN PARK, SOUTH DELHI, NEW DELHI, Delhi"
+        },
+        {
+          "source1_id": "S1-546854183",
+          "target_id": "S2-432152034",
+          "country": "India",
+          "name1": "All Marketing Limited",
+          "name2": "ऑल मार्केटिंग लिमिटेड",
+          "address1": "A-3, Thane, Shreepal Complex Near Aradhana Cinema, Maharashtra",
+          "address2": "A-3, MUMBAI, SHREEPAL COMPLEX NEAR ARADHANA CINEMA, Maharashtra"
+        },
+        {
+          "source1_id": "S1-191319758",
+          "target_id": "S2-137523239",
+          "country": "India",
+          "name1": "Indo Investments Private Limited",
+          "name2": "இண்டோ இன்வெஸ்ட்மெண்ட்ஸ் பிரைவேட் லிமிடெட்",
+          "address1": "3/41, Chinnaiya Kovil Kadu, Thagari Chinnasalem, Kallakurchi, Villupuram, Tamil Nadu",
+          "address2": "3/41, CHINNAIYA KOVIL KADU, THAGARI CHINNASALEM, KALLAKURCHI, VILLUPURAM, தமிழ்நாடு"
+        },
+        {
+          "source1_id": "S1-196932792",
+          "target_id": "S2-321352738",
+          "country": "India",
+          "name1": "Seven Developers LLP",
+          "name2": "सेवन डेवलपर्स एलएलपी",
+          "address1": "A-196, Shivalik Nagar, New Delhi, Delhi",
+          "address2": "NEW DELHI, SHIVALIK NAGAR, दिल्ली, A-196"
+        }
+      ],
+      "devanagari": [
+        {
+          "source1_id": "S1-572417724",
+          "target_id": "S2-157862947",
+          "country": "India",
+          "name1": "One Construction",
+          "name2": "वन कंस्ट्रक्शन",
+          "address1": "New Delhi, South Delhi, 2Nd Floor, Chittaranjan Park, A-9, Delhi",
+          "address2": "A-9, 2ND FLOOR, CHITTARANJAN PARK, SOUTH DELHI, NEW DELHI, Delhi"
+        },
+        {
+          "source1_id": "S1-546854183",
+          "target_id": "S2-432152034",
+          "country": "India",
+          "name1": "All Marketing Limited",
+          "name2": "ऑल मार्केटिंग लिमिटेड",
+          "address1": "A-3, Thane, Shreepal Complex Near Aradhana Cinema, Maharashtra",
+          "address2": "A-3, MUMBAI, SHREEPAL COMPLEX NEAR ARADHANA CINEMA, Maharashtra"
+        },
+        {
+          "source1_id": "S1-196932792",
+          "target_id": "S2-321352738",
+          "country": "India",
+          "name1": "Seven Developers LLP",
+          "name2": "सेवन डेवलपर्स एलएलपी",
+          "address1": "A-196, Shivalik Nagar, New Delhi, Delhi",
+          "address2": "NEW DELHI, SHIVALIK NAGAR, दिल्ली, A-196"
+        },
+        {
+          "source1_id": "S1-812869633",
+          "target_id": "S2-415378571",
+          "country": "India",
+          "name1": "Hotel Classic Industries Private Limited",
+          "name2": "होटल क्लासिक इंडस्ट्रीज प्राइवेट लिमिटेड",
+          "address1": "134/9 Krishnamaster Chawl, Sarveshwar Mandirmarg T W, Mumbai, Maharashtra",
+          "address2": "KRISHNAMASTER CHAWL, MUMBAI, Maharashtra"
+        }
+      ],
+      "missing_address": [
+        {
+          "source1_id": "S1-913946334",
+          "target_id": "S2-35432195",
+          "country": "India",
+          "name1": "Varshya Industry Limited",
+          "name2": "Varshya  Industry",
+          "address1": "Batchu'S Riddhi Enclave, D.No.9-1-9/1, Pithapuram Colony, Maddilapalem, Visakhapatnam, Vishakhapatnam, Andhra Pradesh",
+          "address2": null
+        },
+        {
+          "source1_id": "S1-603926133",
+          "target_id": "S2-334165023",
+          "country": "India",
+          "name1": "Virtual Buildcon Private Limited",
+          "name2": "Virtual Buildcon Private Limited",
+          "address1": "C-4/367, Yamuna Vihar, Shahdra, East Delhi, Delhi",
+          "address2": null
+        },
+        {
+          "source1_id": "S1-875799050",
+          "target_id": "S2-286207082",
+          "country": "US",
+          "name1": "Kerns, Celisse F., CPA, PC",
+          "name2": "Kerns, Celisse F., Cpa, Pc",
+          "address1": "1217 Dixon Lane, Abington Township, PA",
+          "address2": null
+        },
+        {
+          "source1_id": "S1-470604226",
+          "target_id": "S2-948027014",
+          "country": "India",
+          "name1": "Alaknanda & Brothers LLP",
+          "name2": "Alaknanda & Brothers L.L.P.",
+          "address1": "15/37, Nirmalyam, Pattupura Nagar, Kusumagiri P O, Ernakulam, Kerala",
+          "address2": null
+        }
+      ],
+      "same_name_different_address": [
+        {
+          "source1_id": "S1-645548518",
+          "target_id": "S2-647436872",
+          "country": "US",
+          "name1": "L Q Knapp Tribeca LLC",
+          "name2": "L Q KNAPP TRIBECA LLC",
+          "address1": "2271 77, Sheldon, NY",
+          "address2": "STRYKERSVILLE, NY, #2271 77"
+        },
+        {
+          "source1_id": "S1-451629887",
+          "target_id": "S2-395429451",
+          "country": "US",
+          "name1": "Summit Keystone Stifel LLC",
+          "name2": "Summit Kéystone Stifel Llc",
+          "address1": "8747 95th Street, Town Of Tilden, WI",
+          "address2": "WI, CHIPPEWA FALLS, 8747 95ND ST"
+        },
+        {
+          "source1_id": "S1-204043287",
+          "target_id": "S2-364290900",
+          "country": "India",
+          "name1": "Infra Trimurti Ecommerce Private Limited",
+          "name2": "*** INFRA TRIMURTI ECOMMERCE PRIVATE LIMITED",
+          "address1": "216, 2Nd Floor, Plot 510, Jay Gopal Ind. Estate Baburao Parulekar Marg, Dadar (West), Mumbai, Mumbai City, Maharashtra",
+          "address2": "Maharashtra, 216, MUMBAI CITY"
+        },
+        {
+          "source1_id": "S1-752602054",
+          "target_id": "S2-237373731",
+          "country": "US",
+          "name1": "Knutson Zeo L.L.C.",
+          "name2": "KNUTSON ZEO (L.L.C.)",
+          "address1": "500 Plaza Drive, Unit Apartment 201, Vestal, NY",
+          "address2": "NY, VESAL, 500 1/2 PLAZA DR"
+        }
+      ]
+    },
+    "similarity_quantiles": {
+      "all name_ratio": {
+        "p0": 0.0,
+        "p10": 50.0,
+        "p25": 72.73,
+        "p50": 87.5,
+        "p75": 100.0,
+        "p90": 100.0,
+        "p100": 100.0
+      },
+      "all address_ratio": {
+        "p0": 10.0,
+        "p10": 52.17,
+        "p25": 69.06,
+        "p50": 83.87,
+        "p75": 92.31,
+        "p90": 98.22,
+        "p100": 100.0
+      },
+      "India name_ratio": {
+        "p0": 4.88,
+        "p10": 10.81,
+        "p25": 60.0,
+        "p50": 81.93,
+        "p75": 93.75,
+        "p90": 100.0,
+        "p100": 100.0
+      },
+      "India address_ratio": {
+        "p0": 10.0,
+        "p10": 46.73,
+        "p25": 65.42,
+        "p50": 83.02,
+        "p75": 92.04,
+        "p90": 97.96,
+        "p100": 100.0
+      },
+      "S2 name_ratio": {
+        "p0": 4.88,
+        "p10": 29.27,
+        "p25": 73.17,
+        "p50": 88.0,
+        "p75": 100.0,
+        "p90": 100.0,
+        "p100": 100.0
+      },
+      "S2 address_ratio": {
+        "p0": 16.0,
+        "p10": 56.93,
+        "p25": 74.36,
+        "p50": 87.5,
+        "p75": 95.0,
+        "p90": 100.0,
+        "p100": 100.0
+      },
+      "US name_ratio": {
+        "p0": 0.0,
+        "p10": 66.67,
+        "p25": 78.79,
+        "p50": 90.0,
+        "p75": 100.0,
+        "p90": 100.0,
+        "p100": 100.0
+      },
+      "US address_ratio": {
+        "p0": 25.93,
+        "p10": 54.84,
+        "p25": 71.43,
+        "p50": 84.38,
+        "p75": 92.31,
+        "p90": 98.31,
+        "p100": 100.0
+      },
+      "S3 name_ratio": {
+        "p0": 0.0,
+        "p10": 54.05,
+        "p25": 72.73,
+        "p50": 87.5,
+        "p75": 100.0,
+        "p90": 100.0,
+        "p100": 100.0
+      },
+      "S3 address_ratio": {
+        "p0": 10.0,
+        "p10": 48.72,
+        "p25": 64.35,
+        "p50": 80.7,
+        "p75": 89.17,
+        "p90": 94.29,
+        "p100": 100.0
+      }
+    }
+  },
+  "elapsed_seconds": 74.5,
+  "ground_truth": {
+    "rows": 2206821,
+    "unique_source1_ids": 2206821,
+    "singletons": 123247,
+    "positive_pairs": 7638365,
+    "min_matches": 0,
+    "max_matches": 11,
+    "mean_matches": 3.4612526344456573,
+    "rows_with_duplicate_targets": 0,
+    "by_country": [
+      {
+        "country": "India",
+        "entities": 883188,
+        "singletons": 49351,
+        "positive_pairs": 3059843,
+        "mean_matches": 3.4645432229604567
+      },
+      {
+        "country": "US",
+        "entities": 1323633,
+        "singletons": 73896,
+        "positive_pairs": 4578522,
+        "mean_matches": 3.4590570044717834
+      }
+    ],
+    "match_count_distribution": [
+      {
+        "matches": 0,
+        "entities": 123247
+      },
+      {
+        "matches": 1,
+        "entities": 119157
+      },
+      {
+        "matches": 2,
+        "entities": 375212
+      },
+      {
+        "matches": 3,
+        "entities": 530841
+      },
+      {
+        "matches": 4,
+        "entities": 484115
+      },
+      {
+        "matches": 5,
+        "entities": 321957
+      },
+      {
+        "matches": 6,
+        "entities": 164868
+      },
+      {
+        "matches": 7,
+        "entities": 63968
+      },
+      {
+        "matches": 8,
+        "entities": 18680
+      },
+      {
+        "matches": 9,
+        "entities": 4205
+      },
+      {
+        "matches": 10,
+        "entities": 534
+      },
+      {
+        "matches": 11,
+        "entities": 37
+      }
+    ],
+    "source_pattern": {
+      "both_sources": 1776047,
+      "source2_only": 143029,
+      "source3_only": 164498,
+      "multiple_source2": 1129968,
+      "multiple_source3": 1224128
+    },
+    "labeled_target_coverage": [
+      {
+        "source": "S2",
+        "country": "India",
+        "target_records": 2017799,
+        "labeled_target_records": 1480545
+      },
+      {
+        "source": "S2",
+        "country": "US",
+        "target_records": 3016817,
+        "labeled_target_records": 2213074
+      },
+      {
+        "source": "S3",
+        "country": "India",
+        "target_records": 2115547,
+        "labeled_target_records": 1579298
+      },
+      {
+        "source": "S3",
+        "country": "US",
+        "target_records": 3170056,
+        "labeled_target_records": 2365448
+      }
+    ]
+  },
+  "source1_exact_content_duplicates": {
+    "train": {
+      "duplicate_groups": 0,
+      "extra_rows": 0
+    },
+    "test": {
+      "duplicate_groups": 0,
+      "extra_rows": 0
+    }
+  },
+  "comparison_space": {
+    "train": {
+      "all_pairs": 22774876013799,
+      "same_country_pairs": 11839670856657
+    },
+    "test": {
+      "all_pairs": 17272751604416,
+      "same_country_pairs": 6724569566212
+    }
+  }
+}

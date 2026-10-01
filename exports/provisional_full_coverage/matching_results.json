@@ -1,0 +1,15 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\provisional_full_coverage\\matching_results.tsv",
+  "completed_rows": 1428000,
+  "remaining_rows": 304544,
+  "total_references": 1732544,
+  "matched_links": 4374833,
+  "complete": false,
+  "output_rows": 1732544,
+  "unfinished_rows_padded": 304544,
+  "exported_at": "2026-09-27T10:09:07.158140+05:30",
+  "last_checkpoint": "0002856.json",
+  "sha256": "2423f9f597940feb53fc72bd9bbc0a323b7359c1ad2fab8ad6874aa85b8bdedc",
+  "verification": "All shard hashes, row counts, match counts, reference order and per-row match uniqueness checked.",
+  "note": "Provisional full-coverage file. Unfinished references have empty match fields; inference is still incomplete."
+}

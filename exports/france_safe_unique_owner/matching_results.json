@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\france_safe_unique_owner\\matching_results.tsv",
+  "reference": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\rarity_france_safe\\matching_results.tsv",
+  "margin": 0.1,
+  "resolved_targets": 76451,
+  "abstained_targets": 6390,
+  "rows": 1732544,
+  "changed_rows": 75806,
+  "removed_links": 236157,
+  "remaining_links": 5051888,
+  "sha256": "4e74716fb007473276eea78c8827c3b7bd7ad9c12c867cd11e2384c778ef169c",
+  "policy": "Keep at most one source-1 owner per target; retain strongest model logit only if its lead exceeds margin. Untouched targets retain original predictions."
+}

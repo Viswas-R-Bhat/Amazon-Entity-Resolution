@@ -1,0 +1,52 @@
+[
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/test/test_source1.tsv",
+    "bytes": 175022086,
+    "sha256": "3d4a32c54c2ca9c53fd7c2be105bf26f708f94c4d2f88eb370972a195665c2f5"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/test/test_source2.tsv",
+    "bytes": 509456422,
+    "sha256": "79d906c7497af2ace70aa277f6e334a652094909de99bd6c57b53420b6a7b2dd"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/test/test_source3.tsv",
+    "bytes": 506002772,
+    "sha256": "850942b11d2a4343486ed0834e28bce9f3b385f3fd497fd60ccf4ea3b8bda035"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/train/train_ground_truth.tsv",
+    "bytes": 127015583,
+    "sha256": "70bc1d8a16c667e0155c2105d0ab2ebe41d7e7a85d8a529e3ca81c6c3a5af037"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/train/train_source1.tsv",
+    "bytes": 210069713,
+    "sha256": "591af0e1dfeb65cab71ea6ee8cb69df00f92d6ba6fa79e05746c938775d14973"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/train/train_source2.tsv",
+    "bytes": 489301488,
+    "sha256": "6336c1a055eec79cf8a6d99fdc8d32a2e4d9dc2662e00963cb35d66b89ed09ed"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/dataset/train/train_source3.tsv",
+    "bytes": 503705637,
+    "sha256": "67da22f5151898ff3006febd836c1a159e97ae95efa7257a5aff4fda685e58e9"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/Documentation_template.md",
+    "bytes": 2175,
+    "sha256": "599b661af92a8d5c239ba283ee9b2ffed050c0bc86360964430a2f9857e8c599"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/README.md",
+    "bytes": 14130,
+    "sha256": "be67cd7d9dbc48a58f93e1f61402360655debac64214115bf9d27d3301939285"
+  },
+  {
+    "path": "6ab10eb3b23ba_student_resource/student_resource/utils/validate_submission.py",
+    "bytes": 13687,
+    "sha256": "f96f59934383a15095914f507620c078c474e8f9c60e864b2d051ed173a22dfc"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "entities": 1000,
+  "candidate_pairs": 57141,
+  "matching_sha256": "a7a6623efbe39d20aba357e705cef69ee55972b0759245d829f80cf8cb825e2e",
+  "candidate_sha256": "78081f22312b2f4c717254524ef2e591ca94237a7b5243b916a8b64c57a1fab7",
+  "inputs": [
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source1.tsv",
+      "size": 96171,
+      "mtime_ns": 1790346886716515300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source2.tsv",
+      "size": 1624142,
+      "mtime_ns": 1790346899364123300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source3.tsv",
+      "size": 1605478,
+      "mtime_ns": 1790346913864110500
+    }
+  ]
+}

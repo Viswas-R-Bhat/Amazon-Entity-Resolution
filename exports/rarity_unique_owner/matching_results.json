@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\rarity_unique_owner\\matching_results.tsv",
+  "reference": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\rarity_model\\matching_results.tsv",
+  "margin": 0.1,
+  "resolved_targets": 139129,
+  "abstained_targets": 10213,
+  "rows": 1732544,
+  "changed_rows": 103208,
+  "removed_links": 738702,
+  "remaining_links": 5065306,
+  "sha256": "36ccf7fe529a6188822fe3916784c7f21f034bb20e31de4393277d6cec787084",
+  "policy": "Keep at most one source-1 owner per target; retain strongest model logit only if its lead exceeds margin. Untouched targets retain original predictions."
+}

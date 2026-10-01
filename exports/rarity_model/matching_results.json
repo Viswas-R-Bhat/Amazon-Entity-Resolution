@@ -1,0 +1,16 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\rarity_model\\matching_results.tsv",
+  "completed_rows": 1732544,
+  "remaining_rows": 0,
+  "total_references": 1732544,
+  "matched_links": 5804008,
+  "complete": true,
+  "output_rows": 1732544,
+  "unfinished_rows_padded": 0,
+  "improved_model_rows": 1732544,
+  "exported_at": "2026-09-27T18:40:56.629311+05:30",
+  "last_checkpoint": "0003466.json",
+  "sha256": "3131c56ed7d2b4c80125b4373ba0d6d002245ed955d920a2e59d81f6c0cc83dc",
+  "verification": "All shard hashes, row counts, match counts, reference order and per-row match uniqueness checked.",
+  "note": "Complete submission: every source-1 reference has a prediction row."
+}

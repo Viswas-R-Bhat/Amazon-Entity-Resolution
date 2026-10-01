@@ -1,0 +1,80 @@
+{
+  "inputs": [
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source1.tsv",
+      "size": 96171,
+      "mtime_ns": 1790346886716515300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source2.tsv",
+      "size": 1624142,
+      "mtime_ns": 1790346899364123300
+    },
+    {
+      "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\test\\test_source3.tsv",
+      "size": 1605478,
+      "mtime_ns": 1790346913864110500
+    }
+  ],
+  "model_config": {
+    "threshold": 0.87,
+    "cap": 60,
+    "features": [
+      "name_ratio",
+      "name_sort",
+      "name_set",
+      "name_partial",
+      "name_jaccard",
+      "core_equal",
+      "name_equal",
+      "name_length_ratio",
+      "phonetic_ratio",
+      "unicode_name_ratio",
+      "address_ratio",
+      "address_sort",
+      "address_set",
+      "address_jaccard",
+      "address_equal",
+      "address_missing",
+      "address_length_ratio",
+      "number_overlap",
+      "number_conflict",
+      "number_missing",
+      "name_number_conflict",
+      "unicode_address_ratio",
+      "source3",
+      "log_name_frequency",
+      "retrieval_score",
+      "exact_block"
+    ],
+    "retrieval_version": 1,
+    "seed": 42,
+    "model_sha256": "bc03a318e14b8b6aa73a6cd9208af363a30252748d85e0de0322fea0e8c69b1e",
+    "inputs": [
+      {
+        "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_source1.tsv",
+        "size": 96171,
+        "mtime_ns": 1790346886711473900
+      },
+      {
+        "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_source2.tsv",
+        "size": 1624142,
+        "mtime_ns": 1790346899324415300
+      },
+      {
+        "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_source3.tsv",
+        "size": 1605478,
+        "mtime_ns": 1790346913822534100
+      },
+      {
+        "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\runs\\smoke\\dataset\\train\\train_ground_truth.tsv",
+        "size": 58177,
+        "mtime_ns": 1790346886718343500
+      }
+    ],
+    "license": "MIT",
+    "model_type": "LightGBM gradient boosted decision trees",
+    "trees": 300
+  },
+  "chunk_size": 500
+}

@@ -1,0 +1,12 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\rarity_imputed\\matching_results.tsv",
+  "rows": 1732544,
+  "imputable_target_records": 48898,
+  "rescored_pairs": 89273,
+  "changed_rows": 13348,
+  "added_links": 10838,
+  "removed_links": 3001,
+  "sha256": "abb017812c6cba7a7ab92cf5be5f6eb80bacb3f99d0ba5d4e2662449c978b719",
+  "seconds": 553.6,
+  "validation": "Unique same-name normalized address donor; every output row and ID checked against candidate shards."
+}

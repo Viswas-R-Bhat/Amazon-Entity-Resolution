@@ -1,0 +1,9 @@
+{
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "duckdb": "1.5.5",
+  "rapidfuzz": "3.14.5",
+  "memory_GiB": 15.64,
+  "CPU": "Intel Core i7-13620H",
+  "GPU": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "audit_memory_limit": "1600MB DuckDB, two threads"
+}

@@ -1,0 +1,9 @@
+{
+  "entities": 1000,
+  "targets": {
+    "2": 16732,
+    "3": 16775
+  },
+  "seed": 17,
+  "warning": "Reduced candidate universe; train records reused as synthetic test inputs for output checks. Not a leaderboard estimate. Never submit these outputs."
+}

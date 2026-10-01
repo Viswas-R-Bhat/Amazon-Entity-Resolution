@@ -1,0 +1,21 @@
+{
+  "key": "Country/name/address, casefolded with whitespace collapsed; 160-bit digest. Exact text check only, not fuzzy entity deduplication.",
+  "train": {
+    "reference_rows": 2206821,
+    "country_counts": {
+      "US": 1323633,
+      "India": 883188
+    },
+    "duplicate_text_rows": 0
+  },
+  "test": {
+    "reference_rows": 1732544,
+    "country_counts": {
+      "US": 663106,
+      "France": 259452,
+      "India": 809986
+    },
+    "rows_with_exact_text_in_train_reference": 0
+  },
+  "elapsed_seconds": 27.66
+}

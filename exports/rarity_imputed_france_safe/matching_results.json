@@ -1,0 +1,12 @@
+{
+  "path": "exports\\rarity_imputed_france_safe\\matching_results.tsv",
+  "sha256": "4654dc0348f23a7d6c0c4a550b7cc1d65821a105e410076edcbf57c7bee24f86",
+  "rows": 1732544,
+  "US_rows": 663106,
+  "US_links": 2050844,
+  "France_rows": 259452,
+  "France_links": 987769,
+  "India_rows": 809986,
+  "India_links": 2257438,
+  "policy": "Improved rarity model for US and India; previous full-coverage baseline for unvalidated France."
+}

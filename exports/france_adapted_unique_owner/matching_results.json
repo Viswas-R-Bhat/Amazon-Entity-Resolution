@@ -1,0 +1,10 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\france_adapted_unique_owner\\matching_results.tsv",
+  "threshold": 0.5,
+  "margin": 0.1,
+  "rows": 1732544,
+  "changed_rows_vs_reference": 40357,
+  "france_links": 760703,
+  "sha256": "36b9d4ceaff0b510e0f180fab457651c869d613ca61b75ce1d1e40ae493e7a3c",
+  "note": "Only France rescored with test-catalog IDF; one owner per target. US/India from reference."
+}

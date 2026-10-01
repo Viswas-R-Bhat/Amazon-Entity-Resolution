@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\VISWAS\\OneDrive\\Desktop\\Amazon\\exports\\completed_rows\\matching_results.tsv",
+  "completed_rows": 1417500,
+  "remaining_rows": 315044,
+  "total_references": 1732544,
+  "matched_links": 4342744,
+  "complete": false,
+  "exported_at": "2026-09-27T10:04:02.017151+05:30",
+  "last_checkpoint": "0002835.json",
+  "sha256": "5c9acfdeeb13dad8dad23c0f3bb0b01e881d44e38facfe58c5194c8e3d304a35",
+  "verification": "All shard hashes, row counts, match counts, reference order and per-row match uniqueness checked.",
+  "note": "Completed rows only. Unprocessed references are omitted, not padded with empty predictions. Not a complete submission."
+}
